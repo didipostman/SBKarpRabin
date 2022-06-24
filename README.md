@@ -3,4 +3,6 @@ Processing large volume of data has always been a major problem due to the  incr
 
 DNA is a sequence of letters such as A, C, G, T. Searching for specific sequences is often difficult due to measurement errors, mutations or evolutionary alterations. Thus, similarity of two sequences using Levenshtein Distance is more useful than exact matches.
 
-So instead of Karp Rabin you can use Levenshtein Distance or Jaro_Winkler_Similarity
+So instead of Karp Rabin you can use Levenshtein Distance or Jaro_Winkler_Similarity by using 
+Package org.apache.commons.text.similarity
+https://commons.apache.org/proper/commons-text/apidocs/org/apache/commons/text/similarity/package-summary.html
