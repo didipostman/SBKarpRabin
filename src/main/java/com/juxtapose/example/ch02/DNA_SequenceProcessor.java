@@ -41,5 +41,6 @@ public class DNA_SequenceProcessor implements
         
 	}
 		dnas.setSeqDNA_Arrays(DNA_ARRAYS);
+		return dnas ;
      } 
 }
